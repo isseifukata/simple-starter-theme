@@ -1,0 +1,24 @@
+/*!
+Theme Name: starter theme
+Description: starter theme
+*/
+
+@import "utilities/preference";
+@import "utilities/vars";
+
+@import "imports";
+
+@import "utilities/mixins";
+@import "utilities/layer";
+@import "utilities/wordpress";
+@import "utilities/utility";
+
+@import "parts/block";
+@import "parts/header";
+@import "parts/footer";
+@import "parts/sidebar";
+@import "parts/form";
+
+@import "component";
+@import "common";
+@import "pages";

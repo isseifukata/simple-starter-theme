@@ -1,0 +1,12 @@
+// 高解像度ディスプレイ対応
+@mixin retina() {
+  @media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+    @content;
+  }
+}
+
+// z-indexの管理
+@mixin z-index($key) {
+  z-index: map-get($layer, $key);
+}

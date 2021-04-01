@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------
+# Default color
+--------------------------------------------------------------*/
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$danger: #dc3545;
+$warning: #ffc107;
+$info: #17a2b8;
+$light: #f8f9fa;
+$dark: #343a40;
+$transparent: transparent;
+
+/*--------------------------------------------------------------
+# Color
+--------------------------------------------------------------*/
+$theme-colors: ();
+
+/*--------------------------------------------------------------
+# Spacer
+--------------------------------------------------------------*/
+$spacers: (
+);
+
+/*--------------------------------------------------------------
+# Heading
+--------------------------------------------------------------*/
+/**
+ *  Font size
+ */
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+/**
+ *  Margin bottom
+ */
+$headings-margin-bottom: $spacer / 2;
+
+/**
+ *  Display
+ */
+$display1-size: 6rem;
+$display2-size: 5.5rem;
+$display3-size: 4.5rem;
+$display4-size: 3.5rem;
+
+$display1-weight: 300;
+$display2-weight: 300;
+$display3-weight: 300;
+$display4-weight: 300;
+$display-line-height: $headings-line-height;

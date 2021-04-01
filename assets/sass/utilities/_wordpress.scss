@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------
+# Necessary WP classes
+--------------------------------------------------------------*/
+.wp-caption {
+  font-size: inherit;
+}
+
+.wp-caption-text {
+  font-size: inherit;
+}
+
+.alignleft {
+  float: left;
+  margin-right: .75rem;
+}
+
+.alignright {
+  float: right;
+  margin-left: .75rem;
+}
+
+.aligncenter {
+  margin: unset auto;
+}
